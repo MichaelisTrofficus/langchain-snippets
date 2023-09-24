@@ -1,0 +1,25 @@
+{
+  "name": "langchain-snippets",
+  "displayName": "LangChain Snippets",
+  "description": "LangChain Snippets for Visual Studio Code",
+  "version": "0.0.1",
+  "author": {
+    "name": "Michaelis Trofficus",
+    "email": "miguel.otero.pedrido.1993@gmail.com"
+  },
+  "keywords": ["langchain"],
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/langchain_snippets.json"
+      }
+    ]
+  }
+}
